@@ -1,0 +1,6 @@
+[
+  { "id": "C-1001", "name": "Acme Dental", "aliases": ["ACME", "acme dental"] },
+  { "id": "C-1002", "name": "Beta Builders", "aliases": ["BETA", "beta builders", "BB"] },
+  { "id": "C-1003", "name": "Cedar Law Group", "aliases": ["CEDAR", "cedar law"] },
+  { "id": "C-1004", "name": "Delta Logistics", "aliases": ["DELTA", "DL"] }
+]
