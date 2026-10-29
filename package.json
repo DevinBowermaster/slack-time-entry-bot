@@ -1,0 +1,30 @@
+{
+  "name": "slack-time-entry-bot",
+  "version": "1.0.0",
+  "description": "Slack bot that turns plain-English technician notes into approved PSA time entries using Claude structured outputs.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Devin Bowermaster",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/src/index.js",
+    "dev": "tsx src/index.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.3.0",
+    "@slack/bolt": "^5.1.0",
+    "@slack/types": "^3.2.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  }
+}
