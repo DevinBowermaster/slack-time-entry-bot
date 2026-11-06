@@ -1,4 +1,5 @@
 # Slack Time Entry Bot
+[![CI](https://github.com/DevinBowermaster/slack-time-entry-bot/actions/workflows/ci.yml/badge.svg)](https://github.com/DevinBowermaster/slack-time-entry-bot/actions/workflows/ci.yml)
 
 Technicians post plain-English notes in Slack. The bot uses Claude to turn them into structured time entries, shows a preview, and saves them to your PSA only after the technician clicks **Approve**.
 
